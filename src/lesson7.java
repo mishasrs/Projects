@@ -6,7 +6,7 @@ public class lesson7 {
                                             // Scanner - это класс
                                             // С помощью слова new мы создаем новый объект класса Scanner
         System.out.println("Введите число");
-        int x = s.nextInt();
-        System.out.println("Вы ввели " + x);
+        int a = s.nextInt();
+        System.out.println("Вы ввели " + a);
     }
 }
