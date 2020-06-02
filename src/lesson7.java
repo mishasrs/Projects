@@ -5,5 +5,8 @@ public class lesson7 {
         Scanner s = new Scanner(System.in); // System.in это стандартный поток входных данных
                                             // Scanner - это класс
                                             // С помощью слова new мы создаем новый объект класса Scanner
+        System.out.println("Введите число");
+        int x = s.nextInt();
+        System.out.println("Вы ввели " + x);
     }
 }
